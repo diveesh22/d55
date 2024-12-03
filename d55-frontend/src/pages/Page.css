@@ -1,0 +1,189 @@
+/* Main container for the reports page */
+.page-container {
+    padding: 20px;
+    color: #090909; /* Ensures text is readable on the background */
+  }
+  
+  /* Chart and description container */
+  .chart-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    border: 2px solid rgba(255, 255, 255, 0.8); /* Adds border around chart and description */
+    border-radius: 10px; /* Rounded corners for aesthetics */
+    padding: 20px;
+    background-color: rgba(199, 193, 193, 0.7); /* Semi-transparent background for contrast */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adds subtle shadow for depth */
+  }
+
+  .title-container {
+    display: relative;
+    text-align: center;
+    margin-bottom: 40px;
+    border: 2px solid rgba(255, 255, 255, 0.8); /* Adds border around chart and description */
+    border-radius: 10px; /* Rounded corners for aesthetics */
+    padding: 20px;
+    background-color: rgba(199, 193, 193, 0.7); /* Semi-transparent background for contrast */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adds subtle shadow for depth */
+  }
+  
+  /* Reverses order of chart and description */
+  .chart-container.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  /* Chart styling */
+  .chart {
+    flex: 1;
+    max-width: 50%;
+    padding: 10px;
+  }
+  
+  /* Description styling */
+  .description {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .description h2 {
+    margin-bottom: 10px;
+  }
+  
+  .description p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+/* Main container */
+.dashboard-essay, .dashboard-references, .dashboard-techstack{
+  padding: 20px;
+  color: #000000;
+  font-family: Arial, sans-serif;
+  background-color: rgba(199, 193, 193, 0.7); /* Semi-transparent background for contrast */
+  border-radius: 10px; 
+  max-width: 800px;
+  margin: 20px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+}
+
+/* Title styling */
+.dashboard-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Essay section styling */
+.dashboard-essay {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  text-align: justify; /* Justifies the essay content */
+}
+
+/* References section styling */
+.dashboard-references h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.dashboard-references ul {
+  list-style: none; /* Removes default list styling */
+  padding: 0;
+}
+
+.dashboard-references li {
+  margin: 10px 0;
+  text-align: center; /* Centers the links */
+}
+
+.dashboard-references a {
+  color: #234e5a; /* Matches React's branding */
+  text-decoration: none;
+}
+
+.dashboard-references a:hover {
+  text-decoration: underline; /* Adds underline on hover for links */
+}
+
+/* Tech Stack section styling */
+.dashboard-techstack h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.dashboard-techstack ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.dashboard-techstack li {
+  font-size: 1rem;
+  margin: 8px 0;
+}
+/* Container styling for Login and Register pages */
+.auth-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(124, 120, 120, 0.7); /* Semi-transparent background */
+  color: #fff;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+/* Form styling */
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.auth-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.auth-form button {
+  padding: 10px;
+  background-color: #436695; /* React's branding color */
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.auth-form button:hover {
+  background-color: #436695;
+}
+
+/* Error and success messages */
+.auth-error {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.auth-success {
+  color: green;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Links */
+a {
+  color: #436695;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
